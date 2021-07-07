@@ -82,75 +82,11 @@ students.forEach(function (arrayItem) {
     const c = arrayItem.state;
     const d = arrayItem.DateOfBirth;
     const e = arrayItem.payRate;
-    console.log(a + " " + b + " " + c + " " + d + " " + e);
+    console.log(`${a} + " " + ${b} + " " + ${c} + " " + ${d} + " " + ${e}`);
 });
 
-
-// Requirement 4: 
-//
-// Describe your expectation and the actual output.
 
 /*
 I expected to see the first two keys and values printed and then see 
 them again for the second iteration, in addition to what was added.
 */
-
-
-/*
-Requriement 5
-Here is a brief description of the Multiplication Table using JavaScript
-https://stackoverflow.com/questions/41465569/multiplication-table-in-javascript (Links to an external site.) 
-Using the following constraints:
-You are not allowed to declare any additional global variables except the following
-*/
-
-const multipliers = [1,2,3,4,5,6,7,8,9,10]
-const multiplican = [1,2,3,4]
-const tableStart = 1
-const tableEnd = 12
-const table = []
-
-table = [
-    {
-        "name": 1,
-        "values" : [
-            {"1": "1 x 1 = 1"},
-            {"2": "1 x 2 = 2"},
-            {"3": "1 x 3 = 3"},
-            {"4": "1 x 4 = 4"},
-
-            
-
-            {"12": "1 x 12 = 12"},
-        ]
-    },
-    {
-        "name": 2,
-        "values" : [
-            {"1": "2 x 1 = 2"},
-            {"2": "2 x 2 = 4"},
-            {"3": "2 x 3 = 6"},
-            {"4": "2 x 4 = 8"},
-
-            
-
-            {"12": "2 x 12 =24"},
-        ]
-    },
-
-    
-    {
-        "name": 12,
-        "values" : [
-            {"1": "12 x 1 = 12"},
-            {"2": "12 x 2 = 24"},
-            {"3": "12 x 3 = 36"},
-            {"4": "12 x 4 = 48"},
-
-            
-
-            {"12": "12 x 12 =144"},
-        ]
-    },
-
-]
