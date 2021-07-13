@@ -220,3 +220,4 @@ console.log(people7.size) //Answer: 2
 
 console.log('/////////////////////////////////')
 console.log('')
+/////////////////////
