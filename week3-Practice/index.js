@@ -14,21 +14,10 @@ var printProps = function(obj, props){
     });
 }
 
-var printMovies = function(items){
-    items.forEach(element => {
-        console.log(`${element}`);
-    });
-}
+var result0 = getData(0);
+var objectWithAddedProps = {...result0, "class":"FSW113", "type": "demo"}
 
-var result0 = getData(0).films;
-var result1 = getData(1).films;
-var result2 = getData(2).films;
-
-var movies = [...result0, ...result1, ...result2];
-printMovies(movies);
-
-// const keys = Object.keys(result);
-// console.log(keys);
-// printProps(result, keys);
+var keys = Object.keys(objectWithAddedProps)
+printProps(objectWithAddedProps, keys)
 
 // console.log(JSON.stringify(result)); ///////////<=More detailed
